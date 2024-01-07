@@ -1,0 +1,230 @@
+.mui-nav-bar {
+  position: sticky;
+}
+
+.miu-search-bar {
+  width: 15%;
+  background-color: #eff2f5;
+  color: black;
+
+  width: 15%;
+}
+
+.miu-search-bar input {
+  border: 1px solid #cfc2c2;
+  border-radius: 43px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.header_center {
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  width: 100px;
+  margin-left: 227px;
+  padding: 0px;
+  justify-content: space-evenly;
+  gap: 47px;
+  cursor: pointer;
+}
+
+.header_option > .MuiSvgIcon-root {
+  color: grey;
+}
+
+.header_option:hover > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.header_option--active > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.header_option--active {
+  border-bottom: 4px solid #2e81f4;
+}
+
+.image-nav {
+  height: 37px;
+}
+
+.MuiMenu-paper {
+  height: 23em;
+  top: 16px;
+  left: 585px;
+
+  width: 19em;
+
+  background-color: black;
+}
+
+.accountPost-img {
+  display: flex;
+  padding-left: 15px;
+  /* padding-top: 1px; */
+  position: relative;
+  top: 9px;
+}
+
+/* styles.css */
+
+.ReactModal__Content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none; 
+}
+
+.ReactModal__Overlay {
+  z-index: 1000; 
+}
+
+.custom-modal {
+  background-color: red;
+}
+
+.modalBox {
+  position: relative;
+  height: 65vh;
+  width: 20em;
+  margin: -30px 20px 0px 0px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 1px 1px 8px black;
+  left: 63em;
+  top: 6em;
+  opacity: 1;
+  padding: 10px;
+}
+
+.boxUser {
+  border: 2px solid black;
+  box-shadow: 0px 0px 3px black;
+  margin: 10px 20px 0px 20px;
+  height: 85px;
+  border: none;
+  border-radius: 5px;
+}
+
+.options-modal {
+  height: 16em;
+  position: relative;
+  top: 2em;
+}
+
+.icons-modal {
+  padding-left: 15px;
+  color: black;
+  display: flex;
+}
+
+.icons-modal p {
+  position: relative;
+  bottom: 12px;
+  left: 11px;
+  font-weight: 600;
+  font-family: 15px Arial, Helvetica, sans-serif;
+}
+.user-name-modal-a {
+  position: relative;
+  left: 8px;
+  top: 10px;
+}
+
+.line-modal-box {
+  height: 1px;
+  width: 79%;
+  background-color: #b1a2a2;
+  position: absolute;
+  bottom: 326px;
+  right: 37px;
+}
+
+.boxUser h3 {
+  position: relative;
+  bottom: 40px;
+  left: 58px;
+  color: black;
+}
+
+.see-all-profile {
+  position: relative;
+  bottom: 25px;
+  left: 16px;
+  color: blue;
+  font-family: 15px Arial, Helvetica, sans-serif;
+}
+.author-name-modal {
+  font-family: 16px Arial, Helvetica, sans-serif;
+}
+
+.right-arrow {
+  position: relative;
+  left: 157px;
+  top: 2px;
+}
+
+.right-arrow-1 {
+  position: relative;
+  left: 149px;
+  top: 2px;
+}
+.right-arrow-3 {
+  position: relative;
+  left: 123px;
+  top: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mui-nav-bar {
+    position: sticky;
+    width: 40%;
+  }
+  .header_center {
+    display: none;
+    width: 20%;
+    justify-content: space-evenly;
+    gap: 50px;
+    cursor: pointer;
+  }
+  .modalBox {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 65vh;
+    width: 22em;
+    margin: -30px 20px 0px 0px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px -1px 17px -7px rgba(0,0,0,0.75);
+    left: 0;
+    top: 6em;
+    opacity: 1;
+    
+  }
+  .modalBox p{
+    cursor: pointer;
+  }
+  
+}
+.css-1guk29 {
+}
+
+
+
+@media only screen and (max-width: 600px) {
+ 
+  .css-1guk29 {
+    left: 50%;
+  }
+  
+}
+
+.update__pass{
+  color: black;
+}

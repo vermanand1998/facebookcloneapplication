@@ -1,0 +1,19 @@
+
+.right-sidebar {
+       position: relative;
+       width: 32%;
+       height: 100vh;
+       position: absolute;
+       left: 63em;
+       position: fixed;
+       margin-top: 75px;
+}
+.widgets {
+    height: 100vh;
+}
+
+@media only screen and (max-width : 900px) {
+    .right-sidebar {
+     display: none;
+ }
+}

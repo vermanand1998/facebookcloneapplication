@@ -1,0 +1,113 @@
+.profileHeader{
+    background-color: white;
+    height: 80vh;
+    margin-top: 0px;
+    box-shadow: 0px 1px 0px #dbd1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, #83858d 5%, transparent 62%);
+}
+.myProfileContent{
+    background-color: #f0f2f5;
+    /* height: 100vh; */
+    margin-top: 4px;
+    height: 79vh;
+}
+#profileimg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    object-fit: cover;
+    
+    border: none;
+    border-radius: 8px;
+    
+}
+.profileImage{
+  
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.profileAvtar{
+   
+    width: 70vw;
+
+}
+.profileAvtarDiv{
+    display: flex;
+    margin-left: 2em;
+    gap: 30px;
+    align-items: center;
+    
+}
+.avtarProfile{
+    margin-top: -60px;
+    width: 150px; 
+  height: 150px; 
+  background-color: white; 
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.userProfileName{
+    font-size: 30px;
+}
+
+
+
+
+.user_user_info {
+    position: relative;
+    width: 23%;
+    /* top: -16px; */
+    bottom: 15px;
+    left: 21%;
+    padding: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+strong{
+    color: #787070;
+}
+
+li{
+    color: #787070;
+}
+
+.user_post {
+    /* background-color: red; */
+    width: 39%;
+    position: absolute;
+    left: 51%;
+    top: 83%;
+    height: 197vh;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.users__post_div{
+        background-color: white;
+    height: 28em;
+    width: 92%;
+}
+
+.about_field{
+    padding: 0px 27px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 18em;
+    border-radius: 10px;
+}

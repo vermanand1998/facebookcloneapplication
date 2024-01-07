@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.left-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 50%;
+}
+
+.right-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+}
+
+.logo{
+    position: absolute;
+    left: 87px;
+    top: 158px;
+    height: 122px;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    height: 368px;
+    width: 478px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.input-filed{
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.input-filed input{
+    margin: 20px 20px 0px 20px;
+    height: 45px;
+    border: .5px solid rgb(231, 227, 227);
+    border-radius: 5px;
+    padding-left: 20px;
+    outline: none;
+    caret-color: #1877f2;
+}
+input:focus {
+    border: 1px solid rgb(56, 128, 223);
+  }
+
+.input-filed input::placeholder{
+    color: rgb(179, 176, 176);
+    margin-left: 10px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+
+
+.button-field{
+    width: 100%;
+}
+
+.Button{
+    position: relative;
+    width: 92%;
+    height: 46px;
+    font-weight: bold;
+    border-radius: 8px;
+    left: 21px;
+    text-transform:lowercase;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: red;
+
+}
+
+.F-content{
+    position: absolute;
+    top: 242px;
+    left: 120px;
+}
+.F-content p{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: normal;
+}
+.f-logo{
+        height: 90px;
+        padding-bottom: 99px;
+}
+
+.Forgot-text{
+    position: relative;
+    left: 38%;
+    top: 5%;
+}
+.Forgot-text a{
+    text-decoration: none;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
+    color: #1877f2;
+    font-size: .9em;
+    font-weight: 500;
+}
+.Forgot-text a:hover{
+    text-decoration: underline;
+}
+
+.line{
+    position: relative;
+    width: 91%;
+    left: 26px;
+    height: 1px;
+    top: 44px;
+    background-color: #ebe8e8;
+}
+
+.create-button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 69px;
+    left: 3px;
+}
+.C-A-Button{
+    cursor: pointer;
+    border: none;
+    background: #57d957;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    height: 45px;
+    width: 197px;
+    border-radius: 5px;
+}
+
+.warning {
+    color: red;
+    margin-left: 155px;
+    font-weight: bolder;
+    position: relative;
+    top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-container {
+        position: relative;
+    }
+    .card-details{
+        position: absolute;
+        left: 65px;
+        bottom: 50em;
+        display: flex;
+        flex-direction: column;
+        height: 394px;
+        width: 478px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    }
+    .logo{
+        position: absolute;
+        left: 40px;
+        top: 158px;
+        height: 122px;
+    }
+    .F-content p {
+        position: relative;
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-size: 28px;
+        line-height: 32px;
+        font-weight: normal;
+        right: 45px;
+    }
+}
+
+
+
+
